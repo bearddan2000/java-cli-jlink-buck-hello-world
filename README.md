@@ -1,14 +1,16 @@
-# java-cli-millbuild-erath-sieve
+# java-cli-jlink-buck-hello-world
 
 ## Description
-Given a number N, print all prime numbers smaller than N.
+Demo of buck build.
 
 ## Tech stack
+- jlink
 - java
-- mill
+- buck
 
 ## Docker stack
-- nightscape/scala-mill
+- ubuntu:22.04
+- praqma/native-buck:latest
 
 ## To run
 `sudo ./install.sh -u`
